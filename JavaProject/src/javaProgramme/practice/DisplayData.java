@@ -11,6 +11,8 @@ public class DisplayData {
 		System.out.println("Local changes");
 		
 		System.out.println("Remote Changes");
+		
+		System.out.println("Branch1 Chnages");
 	
 	}
 
