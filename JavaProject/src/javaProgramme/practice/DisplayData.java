@@ -11,6 +11,7 @@ public class DisplayData {
 		System.out.println("Local changes");
 		
 	
+		System.out.println("After reverting chnages pushing chnages to Remote");
 		
 	}
 
