@@ -9,6 +9,9 @@ public class DisplayData {
 		System.out.println("Learning Github project");
 		
 		System.out.println("Local changes");
+		
+		System.out.println("Remote chnages");
+		
 	}
 
 }
