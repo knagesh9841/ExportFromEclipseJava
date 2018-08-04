@@ -7,6 +7,8 @@ public class DisplayData {
 		System.out.println("WelCome to Java");
 		
 		System.out.println("Learning Github project");
+		
+		System.out.println("Local changes");
 	}
 
 }
