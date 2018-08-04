@@ -10,8 +10,6 @@ public class DisplayData {
 		
 		System.out.println("Local changes");
 		
-		System.out.println("Remote changes");
-		
 	
 		
 	}
