@@ -10,6 +10,8 @@ public class DisplayData {
 		
 		System.out.println("Local changes");
 		
+		System.out.println("Changes to check reverting from Commit/staging area");
+		
 	
 		
 	}
