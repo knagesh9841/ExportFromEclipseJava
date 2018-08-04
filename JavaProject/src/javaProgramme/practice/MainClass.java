@@ -7,6 +7,8 @@ public class MainClass {
 		DisplayData obj = new DisplayData();
 		obj.showData();
 		
+		System.out.println("Checking for merge Conflict from merger tool");
+		
 
 	}
 
