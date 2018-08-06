@@ -9,7 +9,9 @@ public class MainClass {
 		System.out.println("Adding print statement from Local");
 		System.out.println("Adding print statement from Local and Remote");
 		System.out.println("Adding print statement from Remote");
+		
 	
+		System.out.println("Verifying stash");
 		
 
 	}
