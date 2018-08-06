@@ -13,6 +13,8 @@ public class DisplayData {
 		System.out.println("Remote Changes");
 		
 		System.out.println("Branch1 Chnages");
+		
+		System.out.println("Stash changes");
 	
 	}
 
