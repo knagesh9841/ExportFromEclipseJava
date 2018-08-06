@@ -9,6 +9,7 @@ public class MainClass {
 		System.out.println("Merge Conflict Changes");
 		System.out.println("Checking for merge Conflict from merger tool");
 		System.out.println("Branching in gitbash");
+		System.out.println("Adding gitbash changes from Local");
 		
 		
 
