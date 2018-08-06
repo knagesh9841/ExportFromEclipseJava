@@ -8,8 +8,7 @@ public class MainClass {
 		obj.showData();
 		System.out.println("Merge Conflict Changes");
 		System.out.println("Checking for merge Conflict from merger tool");
-		System.out.println("Discard Unstaged changes");
-		System.out.println("Discard staged changes");
+		
 		
 
 	}
