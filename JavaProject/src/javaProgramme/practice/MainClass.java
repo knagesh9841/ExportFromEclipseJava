@@ -8,6 +8,7 @@ public class MainClass {
 		obj.showData();
 		System.out.println("Adding print statement from Local");
 		System.out.println("Adding print statement from Local and Remote");
+		System.out.println("Adding print statement from Remote");
 	
 		
 
