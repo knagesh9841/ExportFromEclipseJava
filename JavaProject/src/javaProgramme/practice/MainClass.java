@@ -14,6 +14,7 @@ public class MainClass {
 		System.out.println("Git reset 1");
 		System.out.println("Git reset 2");
 		System.out.println("Git Reset 3");
+		System.out.println("Git Reset 4");
 
 	}
 
