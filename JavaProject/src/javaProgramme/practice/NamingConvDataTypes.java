@@ -10,6 +10,7 @@ public class NamingConvDataTypes {
 	double d;
 	String str;
 	boolean bool;
+	char c;
 	
 	public void showDefaultValue()
 	{
@@ -21,6 +22,7 @@ public class NamingConvDataTypes {
 		System.out.println("Double="+d);
 		System.out.println("String="+str);
 		System.out.println("Boolean="+bool);
+		System.out.println("Char="+c);
 		
 		b = 10;
 		s = 111;
@@ -30,6 +32,7 @@ public class NamingConvDataTypes {
 		d =12.12345678901;
 		str = "Nagesh";
 		bool = true;
+		c='C';
 		
 		showSetValue();
 	}
@@ -44,6 +47,7 @@ public class NamingConvDataTypes {
 		System.out.println("Double="+d);
 		System.out.println("String="+str);
 		System.out.println("Boolean="+bool);
+		System.out.println("Char="+c);
 	}
 	
 }

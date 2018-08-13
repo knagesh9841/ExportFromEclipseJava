@@ -31,6 +31,9 @@ public class MainClass {
 		OperatorInJava obj3 = new OperatorInJava();
 		obj3.showOperatorData();
 		
+		ControlStatements obj4 = new ControlStatements();
+		obj4.controlStatement();
+		
 
 	}
 
