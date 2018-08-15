@@ -1,5 +1,7 @@
 package javaProgramme.practice;
 
+import java.io.IOException;
+
 /**
  * This is main class which will call all the methods from here
  * 
@@ -14,7 +16,7 @@ public class MainClass {
 		System.out.println("Static method is called");
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		//This is first statement
 		
@@ -33,6 +35,22 @@ public class MainClass {
 		
 		ControlStatements obj4 = new ControlStatements();
 		obj4.controlStatement();
+		
+//		InputOutputClass.inputOutput();
+		
+		
+		
+		ArraysExample.arrayExample();
+		
+		System.out.println("Command Line Argument");
+		for(int i=0;i<args.length;i++)
+		{
+			System.out.println(args[i]);
+		}
+		String name[]= {"nagesh","mahadev"};
+		MainClassFromAnotherClass.main(name);
+		
+		
 		
 
 	}
