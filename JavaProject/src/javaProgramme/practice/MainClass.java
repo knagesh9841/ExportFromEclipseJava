@@ -40,7 +40,7 @@ public class MainClass {
 		
 		
 		
-		ArraysExample.arrayExample();
+//		ArraysExample.arrayExample();
 		
 		System.out.println("Command Line Argument");
 		for(int i=0;i<args.length;i++)
@@ -49,6 +49,10 @@ public class MainClass {
 		}
 		String name[]= {"nagesh","mahadev"};
 		MainClassFromAnotherClass.main(name);
+		
+		StringExamples obj5 = new StringExamples();
+		obj5.stringExapmles();
+		
 		
 		
 		
