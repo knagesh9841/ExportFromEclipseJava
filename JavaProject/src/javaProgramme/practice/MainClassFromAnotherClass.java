@@ -12,6 +12,7 @@ public class MainClassFromAnotherClass {
 			System.out.println(args[i]);
 		}
 			
+		
 
 	}
 

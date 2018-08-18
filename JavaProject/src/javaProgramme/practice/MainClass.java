@@ -15,6 +15,11 @@ public class MainClass {
 	{
 		System.out.println("Static method is called");
 	}
+	
+	static
+	{
+		System.out.println("Static Block is called");
+	}
 
 	public static void main(String[] args) throws IOException {
 		
@@ -53,10 +58,21 @@ public class MainClass {
 		StringExamples obj5 = new StringExamples();
 		obj5.stringExapmles();
 		
+		ClassesAndObjects obj6 = new ClassesAndObjects();
+		obj6.show();
+		ClassesAndObjects.showStaticData();
 		
+		ClassesAndObjects obj7 = new ClassesAndObjects(1395,"Nagesh");
+		obj7.show();
+		obj7.showStaticData();
+		System.out.println("Process Object");
+		obj7.processObject(obj7);
+		obj7.show();
 		
+		new ClassesAndObjects().ArrayCaller();
 		
-
+		Two obj8 = new Two(new One(100),200);
+		obj8.show();
 	}
 
 }
