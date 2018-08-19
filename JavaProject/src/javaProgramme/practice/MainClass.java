@@ -2,6 +2,8 @@ package javaProgramme.practice;
 
 import java.io.IOException;
 
+
+
 /**
  * This is main class which will call all the methods from here
  * 
@@ -73,6 +75,18 @@ public class MainClass {
 		
 		Two obj8 = new Two(new One(100),200);
 		obj8.show();
+		
+		ChildClass obj9 = new ChildClass(17109, "Nagesh Kadam", 3.7f, "Senior Software Engineer");
+		
+		obj9.showData();
+		
+		AccessModifiers obj10 = new AccessModifiers();
+		
+		System.out.println("Default members in same Directory = "+obj10.id);
+		System.out.println("Public members in same directory = "+obj10.name);
+		System.out.println("Private member cannnot be accessed in same Directory");
+		System.out.println("Protected member in same directory  = "+obj10.tech);
+	
 	}
 
 }
