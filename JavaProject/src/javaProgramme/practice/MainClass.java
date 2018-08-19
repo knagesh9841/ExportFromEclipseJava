@@ -80,13 +80,14 @@ public class MainClass {
 		
 		obj9.showData();
 		
-		AccessModifiers obj10 = new AccessModifiers();
+		AccessModifiers obj10 = new AccessModifiers(58);
 		
 		System.out.println("Default members in same Directory = "+obj10.id);
 		System.out.println("Public members in same directory = "+obj10.name);
 		System.out.println("Private member cannnot be accessed in same Directory");
 		System.out.println("Protected member in same directory  = "+obj10.tech);
 	
+		obj10.finalMethodTest();
 	}
 
 }
