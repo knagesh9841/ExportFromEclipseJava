@@ -23,7 +23,7 @@ public class MainClass {
 		System.out.println("Static Block is called");
 	}
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, CloneNotSupportedException {
 		
 		//This is first statement
 		
@@ -88,6 +88,34 @@ public class MainClass {
 		System.out.println("Protected member in same directory  = "+obj10.tech);
 	
 		obj10.finalMethodTest();
+		
+		PolymorphismClass1 obj11 = new PolymorphismClass1();
+		
+		obj11.add(100, 100);
+		obj11.add(100, 1000, 10);
+		PolymorphismClass1.add(1, 2);
+		PolymorphismClass1.add(1, 2, 3);
+		obj11.sub(100, 80);
+		obj11.sub(1000, 100, 10);
+		
+		PolymorphismClass2 obj12 = new PolymorphismClass2();
+		
+		obj12.add(10, 20);
+		PolymorphismClass2.add(100, 200);
+		obj12.sub(111, 222);
+		obj12.showData();
+		
+		PolymorphismClass1 obj13 = new PolymorphismClass2();
+		obj13.add(1111, 2222);
+		
+		CloneExample obj14 = new CloneExample(1395,"Bappa");
+		CloneExample obj15 = (CloneExample) obj14.clone();
+		obj14.showData();
+		obj15.showData();
+		
+	
+	
+		
 	}
 
 }
