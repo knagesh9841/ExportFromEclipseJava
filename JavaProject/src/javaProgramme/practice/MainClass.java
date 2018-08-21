@@ -99,7 +99,7 @@ public class MainClass {
 		obj11.sub(1000, 100, 10);
 		
 		PolymorphismClass2 obj12 = new PolymorphismClass2();
-		
+		System.out.println("Static method");
 		obj12.add(10, 20);
 		PolymorphismClass2.add(100, 200);
 		obj12.sub(111, 222);
@@ -113,8 +113,26 @@ public class MainClass {
 		obj14.showData();
 		obj15.showData();
 		
+		Class classname = obj15.getClass();
+		System.out.println("Class Name = "+classname.getSimpleName());
+		
+		Car obj16 = new MarutiSuzuki(5, "Nexa");
+		obj16.showCarName();
+		obj16.showSuperData();
+		
 	
-	
+		MarutiSuzuki obj17 = new MarutiSuzuki(6, "SX4");
+		obj17.showCarName();
+		obj17.showSuperData();
+		obj17.showMaruti();
+		
+		MyInterface obj18 = new InterfaceImplementation();
+		obj18.defaultMethod();
+		obj18.publicMethod();
+		MyInterface.staticmethod();
+		
+		InterfaceImplementation obj19 = new InterfaceImplementation();
+		obj19.defaultMethod();
 		
 	}
 
