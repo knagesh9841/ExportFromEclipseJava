@@ -9,11 +9,11 @@ public class InterfaceImplementation implements MyInterface{
 		
 	}
 	
-	/*@Override
+	@Override
 	public void defaultMethod()
 	{
 		System.out.println("This is default method of Interface implementation");
-	}*/
+	}
 	
 	public void showImple()
 	{

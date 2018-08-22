@@ -23,7 +23,7 @@ public class MainClass {
 		System.out.println("Static Block is called");
 	}
 
-	public static void main(String[] args) throws IOException, CloneNotSupportedException {
+	public static void main(String[] args) throws Exception {
 		
 		//This is first statement
 		
@@ -106,7 +106,9 @@ public class MainClass {
 		obj12.showData();
 		
 		PolymorphismClass1 obj13 = new PolymorphismClass2();
+		System.out.println("Static method Test");
 		obj13.add(1111, 2222);
+		PolymorphismClass2.add(11111, 222222);
 		
 		CloneExample obj14 = new CloneExample(1395,"Bappa");
 		CloneExample obj15 = (CloneExample) obj14.clone();
@@ -133,6 +135,21 @@ public class MainClass {
 		
 		InterfaceImplementation obj19 = new InterfaceImplementation();
 		obj19.defaultMethod();
+		
+		SingleAbstractedClass obj20 = new SingleAbstractedClass();
+		obj20.show();
+		System.out.println(obj20.hashCode());
+		
+		ExceptionHandling obj21 =new ExceptionHandling();
+		try {
+			obj21.cal();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("Rethrown Exception is "+e.getMessage());
+			e.printStackTrace();
+		}
+		
+		obj21.show();
 		
 	}
 
