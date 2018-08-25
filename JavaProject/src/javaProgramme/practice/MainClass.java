@@ -151,6 +151,45 @@ public class MainClass {
 		
 		obj21.show();
 		
+		FileReadWrite obj22 = new FileReadWrite("testfile.txt");
+		
+		obj22.writeFile();
+		obj22.readfile();
+		obj22.fileOperation();
+		
+		IpAddress.showAddress();
+		
+		Thread t = Thread.currentThread();
+		System.out.println("Thread info = "+ t);
+		System.out.println("Thread start = "+t.getName());
+		
+		SingleTaskThread obj23 = new SingleTaskThread();
+		Thread t1 = new Thread(obj23);
+		MultileTaskThread obj24 = new MultileTaskThread();
+		Thread t2 = new Thread(obj24);
+		
+		t1.start();
+		t2.start();
+		
+		ThreadSynchronization obj25 = new ThreadSynchronization(1);
+		
+		Thread t3 = new Thread(obj25);
+		Thread t4 = new Thread(obj25);
+		
+		t3.setName("First Person");
+		t4.setName("Second Person");
+		
+		t3.start();
+		t4.start();
+		
+		Producer prod = new Producer();
+		Consumer cons = new Consumer(prod);
+		
+		Thread t5 = new Thread(prod);
+		Thread t6 = new Thread(cons);
+		
+		t6.start();
+		t5.start();
 	}
 
 }
