@@ -190,6 +190,9 @@ public class MainClass {
 		
 		t6.start();
 		t5.start();
+
+		JdbcConnectionOracle.showData("Oracle");
+		JdbcConnectionOracle.showData("SQL");
 	}
 
 }
