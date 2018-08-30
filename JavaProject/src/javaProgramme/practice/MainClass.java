@@ -151,13 +151,13 @@ public class MainClass {
 		
 		obj21.show();
 		
-		FileReadWrite obj22 = new FileReadWrite("testfile.txt");
+		/*FileReadWrite obj22 = new FileReadWrite("testfile.txt");
 		
 		obj22.writeFile();
 		obj22.readfile();
-		obj22.fileOperation();
+		obj22.fileOperation();*/
 		
-		IpAddress.showAddress();
+		/*IpAddress.showAddress();
 		
 		Thread t = Thread.currentThread();
 		System.out.println("Thread info = "+ t);
@@ -192,7 +192,10 @@ public class MainClass {
 		t5.start();
 
 		JdbcConnectionOracle.showData("Oracle");
-		JdbcConnectionOracle.showData("SQL");
+		JdbcConnectionOracle.showData("SQL");*/
+		
+		CollectionPractice.setExample();
+		CollectionPractice.listExample();
 	}
 
 }
