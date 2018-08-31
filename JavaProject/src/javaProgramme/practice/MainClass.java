@@ -196,6 +196,20 @@ public class MainClass {
 		
 		CollectionPractice.setExample();
 		CollectionPractice.listExample();
+		
+		ArraysClass.show();
+		
+		DateCalenderClass.show();
+		
+		DateCalenderClass obj26[] = new DateCalenderClass[5];
+		
+		for(int i=0;i<obj26.length;i++)
+		{
+			obj26[i] = new DateCalenderClass();
+			System.out.println("Object created");
+		}
+		
+		Javanewfeatures.show();
 	}
 
 }
