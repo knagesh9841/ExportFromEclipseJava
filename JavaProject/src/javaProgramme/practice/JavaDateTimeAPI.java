@@ -45,7 +45,7 @@ public class JavaDateTimeAPI {
 	    
 	    LocalDateTime now = LocalDateTime.now();  
         System.out.println("Before Formatting: " + now);  
-        DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss a");  
         String formatDateTime = now.format(format);  
         System.out.println("After Formatting: " + formatDateTime);  
         
