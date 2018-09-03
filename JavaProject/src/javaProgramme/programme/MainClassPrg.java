@@ -15,6 +15,19 @@ public class MainClassPrg {
 		obj.stringReverse();
 		obj.firstCap();
 		obj.dupArrayElement();
+		
+		int arr[] = {10,20,30,40,50,60,70,80,90,100};
+		
+		int pos = obj.binarySearch(arr, 0, arr.length-1, 20);
+		if(pos==-1)
+			System.out.println("Element is not Found");
+		else
+			System.out.println("Element Found at Location: "+pos);
+		
+		
+		obj.bubbleSort();
+		
+		obj.collectionSort();
 	}
 
 }

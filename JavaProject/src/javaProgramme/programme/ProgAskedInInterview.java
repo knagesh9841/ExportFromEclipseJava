@@ -1,5 +1,10 @@
 package javaProgramme.programme;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
+
 public class ProgAskedInInterview {
 	
 	public void polyndromNumber(int no)
@@ -155,5 +160,94 @@ public class ProgAskedInInterview {
 			}
 		}
 	}
+	
+	public int binarySearch(int arr[],int first,int last,int no)
+	{
+		int mid = 0;
+		if(first<=last)
+		{
 
+			mid = (first+last)/2;
+			if(arr[mid]==no)
+			{
+				return mid;
+			}else if(no<arr[mid])
+			{
+				last = mid-1;
+				return binarySearch(arr, first, last, no);
+			}else if(no>arr[mid])
+			{
+				first = mid+1;
+				return binarySearch(arr, first, last, no);
+			}
+
+		}
+
+		return -1;
+	}
+	
+	public void bubbleSort()
+	{
+		int arr [] = {10,40,30,50,20,90,70,80,60,100};
+		int temp;
+		System.out.println("Array Before Sort is as follows");
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			System.out.println(arr[i]);
+		}
+		
+		for(int i=0;i<arr.length-1;i++)
+		{
+			for(int j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]<arr[j])
+				{
+					temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		
+		System.out.println("Array After Sort is as follows");
+		
+		for (int i = 0; i < arr.length; i++) {
+			
+			System.out.println(arr[i]);
+		}
+		
+	}
+
+	
+	public void collectionSort()
+	{
+		ArrayList<String> al = new ArrayList<>();
+		al.add("Nagesh");
+		al.add("Mahadev");
+		al.add("Bappa");
+		al.add("Kadam");
+		
+		Iterator<String> itr = al.iterator();
+		
+		System.out.println("Before Sort:");
+		
+		while (itr.hasNext()) {
+			String string = (String) itr.next();
+			System.out.println(string);
+			
+		}
+		
+		Collections.sort(al);
+		
+		itr = al.iterator();
+		
+		System.out.println("After Sort:");
+		
+		while (itr.hasNext()) {
+			String string = (String) itr.next();
+			System.out.println(string);
+			
+		}
+	}
 }
