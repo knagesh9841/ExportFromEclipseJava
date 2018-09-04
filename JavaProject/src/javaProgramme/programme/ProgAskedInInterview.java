@@ -250,4 +250,153 @@ public class ProgAskedInInterview {
 			
 		}
 	}
+	
+	
+	public void pattern1()
+	{
+		System.out.println("-----Pattern 1 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
+	}
+	
+	public void pattern2()
+	{
+		System.out.println("-----Pattern 2 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			
+			for(int j=5;j>=i;j--)
+			{
+				System.out.print("* ");
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	public void pattern3()
+	{
+		System.out.println("-----Pattern 3 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<i;j++)
+			{
+				System.out.print("  ");
+			}
+			
+			for(int k=5;k>=i;k--)
+			{
+				System.out.print("* ");
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	public void pattern4()
+	{
+		System.out.println("-----Pattern 4 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=5;j>i;j--)
+			{
+				System.out.print("  ");
+			}
+			
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("* ");
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	public void pattern5()
+	{
+		System.out.println("-----Pattern 5 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=5;j>i;j--)
+			{
+				System.out.print("  ");
+			}
+			
+			for(int k=1;k<=i;k++)
+			{
+				System.out.print("*  ");
+			}
+			
+			for(int j=5;j>i;j--)
+			{
+				System.out.print("  ");
+			}
+			
+			System.out.println();
+			
+		}
+		
+	}
+	
+	public void pattern6()
+	{
+		System.out.println("-----Pattern 6 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(i+" ");
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	public void pattern7()
+	{
+		System.out.println("-----Pattern 7 is as Follows-----");
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(j+" ");
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	public void pattern8()
+	{
+		System.out.println("-----Pattern 8 is as Follows-----");
+		
+		int no=1;
+		
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(no+" ");
+				no++;
+			}
+			
+			System.out.println();
+		}
+	}
+	
+	
 }

@@ -28,6 +28,22 @@ public class MainClassPrg {
 		obj.bubbleSort();
 		
 		obj.collectionSort();
+		
+		obj.pattern1();
+		
+		obj.pattern2();
+		
+		obj.pattern3();
+		
+		obj.pattern4();
+		
+		obj.pattern5();
+		
+		obj.pattern6();
+		
+		obj.pattern7();
+		
+		obj.pattern8();
 	}
 
 }
