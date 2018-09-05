@@ -212,6 +212,19 @@ public class MainClass {
 		Javanewfeatures.show();
 		
 		JavaDateTimeAPI.show();
+		
+		CovariantReturnType1 obj27 = new CovariantReturnType1();
+		
+		obj27.showData();
+		
+		CovariantReturnType2 obj28 = new CovariantReturnType2();
+		
+		obj28.showData();
+		
+		CovariantReturnType1 obj29 = new CovariantReturnType2();
+		
+		obj29.showData();
+		
 	}
 
 }
