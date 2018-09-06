@@ -225,6 +225,13 @@ public class MainClass {
 		
 		obj29.showData();
 		
+		Child obj30 = new Child(100);
+		
+		obj30.show();
+		obj30.grandParentMethod();
+		obj30.parentMethod();
+		obj30.childMethod();
+		
 	}
 
 }
